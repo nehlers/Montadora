@@ -6,3 +6,5 @@ $var = function ($nome)
 };
 
 echo $var("Nícollas");
+echo $var("Nícollas");
+echo $var("Nícollas");
