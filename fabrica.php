@@ -33,7 +33,7 @@ $carro1 = new Carro($motor3, $volante); /*instanciar - objeto criado*/
 $carro1->abastecer(0);
 try{
     $carro1->ligar();
-    $carro1->acelerar(30);
+    $carro1->acelerar(20);
 } catch (Exception $e) {
     echo "\n".$e->getMessage()."\n";
 }
