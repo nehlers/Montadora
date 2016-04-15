@@ -1,4 +1,3 @@
-<pre>    
 <?php
 
 namespace Montadora;
@@ -30,21 +29,14 @@ $volante = new Volante();
 
 $carro1 = new Carro($motor3, $volante); /*instanciar - objeto criado*/
 
-$carro1->abastecer(0);
+$carro1->abastecer(20);
 try{
     $carro1->ligar();
-    $carro1->acelerar(20);
+    $carro1->acelerar(30);
 } catch (Exception $e) {
     echo "\n".$e->getMessage()."\n";
 }
 
-
-    
-
-
-
 //var_dump($carro1);
 print_r($carro1);
 
-?>
-</pre>
